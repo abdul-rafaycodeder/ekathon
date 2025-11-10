@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #f8fafc;
+}
+
+/* ===== HEADER ===== */
+.navbar {
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 90px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    transition: all 0.3s ease;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 28px;
+}
+
+.logo h2 {
+    color: #1a252f;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* Navigation Links */
+.nav-links ul {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: #3b3b3b;
+    font-size: 15px;
+    transition: color 0.3s ease;
+}
+
+.nav-links ul li a:hover,
+.nav-links ul li a.active {
+    color: #00b86b;
+}
+
+/* Register Button */
+.register-btn {
+    background-color: #34a853;
+    color: #fff;
+    padding: 10px 22px;
+    border-radius: 6px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.register-btn:hover {
+    background-color: #2d8f47;
+}
+
+/* Hide mobile button by default */
+.mobile-btn {
+    display: none;
+}
+
+/* ===== Hamburger Menu ===== */
+.menu-toggle {
+    display: none;
+    font-size: 22px;
+    cursor: pointer;
+    color: #1a252f;
+}
+
+#hero{
+    /* background-color: #00b86b; */
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 60px;
+   
+}
+
+.text{
+    padding-right: 200px;
+}
+
+h1{
+    font-size: 3em;
+}
+.h1{
+   color: #4CAF4F;
+}
+
+p{
+    font-size: 1em;
+}
+
+/* ===== BUTTON STYLE ===== */
+.btn {
+  background-color: #34a853;   /* Green color */
+  color: white;
+  padding: 12px 30px;
+  /* text-decoration: none; */
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  /* display: inline-block; */
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(52, 168, 83, 0.3);
+}
+
+/* Hover effect */
+.btn:hover {
+  background-color: #2d8f47;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(52, 168, 83, 0.45);
+}
+
+/* Active (click) effect */
+.btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(52, 168, 83, 0.2);
+}
+
+/* Center container */
+.btn-container {
+  text-align: center;
+}
+/* ===== Responsive Design ===== */
+@media (max-width: 900px) {
+    .navbar {
+        padding: 15px 40px;
+    }
+
+    .nav-links {
+        min-width: 768px;
+        /* max-width: 200px; */
+        width: 200px;
+        display: none;
+    }
+
+    /* Hide desktop button */
+    .desktop-btn {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        position: absolute;
+        top: 65px;
+        left: 0;
+        width: 100%;
+        background: #ffffff;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px 40px;
+        gap: 20px;
+        box-shadow: 40px
+    }
