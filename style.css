@@ -93,7 +93,7 @@ body {
 }
 
 #hero{
-    background-color: #88cfb1;
+    /* background-color: #88cfb1; */
     height: 500px;
     display: flex;
     justify-content: space-around;
@@ -136,22 +136,66 @@ font-size: large;
 }
 
 .icons>img{
-    width: 100px;
+    width: 150px;
    
-    margin: 30px;
-    background-color: #00b86b;
+  margin-top: 30px;
+    /* background-color: #00b86b; */
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* height: 20px   ; */
+    padding: 20px 20px;
+   
 }
 
 .icons{
-    gap: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
 }
 
+#section2{
+    /* background-color: #00b86b; */
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.9em;
+    margin-top: 40px;
+}
 
+.p2{
+    color: gray;
+    margin-top: 20px;
+}
 
+#section2box{
+    /* background-color: #00b86b; */
+    /* width: 200px; */
+    /* height: 200px; */
+    /* display: flex; */
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#section2box.box{
+    font-size: 6em;
+}
+
+.section2h1{
+    font-size: 2.5em;
+
+}
+
+.section2p{
+    color: gray;
+    margin-top: 20px;
+}
+
+/* .section2h1{
+    font-size: 2em;
+} */
 /* ===== BUTTON STYLE ===== */
 .btn {
   background-color: #34a853;   /* Green color */
