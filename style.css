@@ -93,7 +93,7 @@ body {
 }
 
 #hero{
-    /* background-color: #00b86b; */
+    background-color: #88cfb1;
     height: 500px;
     display: flex;
     justify-content: space-around;
@@ -116,6 +116,41 @@ h1{
 p{
     font-size: 1em;
 }
+
+#section1{
+    /* background-color: #00b86b; */
+    width: 800px;
+    height: 80px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 40px;
+    font-size: xx-large;
+    padding-top: 20px;
+}
+
+.p{
+font-size: large;
+}
+
+.icons>img{
+    width: 100px;
+   
+    margin: 30px;
+    background-color: #00b86b;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* height: 20px   ; */
+}
+
+.icons{
+    gap: 50px;
+}
+
+
 
 /* ===== BUTTON STYLE ===== */
 .btn {
