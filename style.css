@@ -248,6 +248,12 @@ font-size: large;
     /* gap: -10rem;/ */
 }
 
+#container{
+    overflow: hidden;
+}
+
+
+
 #section7>img{
     width: 300px;
         margin-top: 30px;
